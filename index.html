@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> BUZZED </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+<div id="bg"></div>
+   
+   
+<div id="navbar">
+
+<img src="info.svg" id="info">
+
+<img src="search.svg" id="search"> 
+
+<a href="index.html"><img src="homebutton.svg" id="home"></a>
+
+</div>
+
+    <header class="header__wrap">
+        <div class="wrap nav">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a> </li>
+
+            </ul>
+            <img src="Buzzed_Logo.svg" alt="LOGO" />
+            <ul>
+                <li><a href="#info">FAQ</a></li>
+                <li><a href="#guysnightw">Categories</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div>
+        <a href="#guysnightw"> <img src="arrow.svg" id="arrow"> </a>
+    </div>
+
+    <div id="header3"></div>
+    <div id="buzzed"></div>
+
+<div id="webcat">
+        <div id="girlsnightw">
+            <h1> <a href="girlsnightout.html">GIRLS NIGHT OUT</a></h1>
+        </div>
+        <div id="guysnightw">
+            <h1><a href="guysnightout.html"> GUYS NIGHT OUT </a></h1>
+        </div>
+        <div id="vacationw">
+            <h1><a href="vacation.html">VACATION</a> </h1>
+        </div>
+        <div id="customw">
+            <h1><a href="custom.html">CUSTOM</a>
+        </h1>
+        </div>
+</div>
+
+<div id="mobilecat">
+    <div id="girlsnight">
+        <h1><a href="girlsnightout.html">GIRLS NIGHT OUT
+        </a></h1>
+    </div>
+    
+    <div id="guysnight">
+        <h1><a href="guysnightout.html"> GUYS NIGHT OUT </a></h1>
+    </div>
+    
+    
+    <div id="vacation">
+        <h1><a href="vacation.html">VACATION</a> </h1>
+    </div>
+    
+    
+    <div id="custom">
+        <h1><a href="custom.html">CUSTOM</a>
+        </h1>
+    </div>
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top - 150
+                        }, 600);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
