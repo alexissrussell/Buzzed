@@ -1,19 +1,15 @@
 @font-face {
     font-family: 'akrobatregular';
-    src: url('akrobat-regular-webfont.woff2') format('woff2'),
-         url('akrobat-regular-webfont.woff') format('woff');
+    src: url('akrobat-regular-webfont.woff2') format('woff2'), url('akrobat-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'kg_who_tells_your_storyRg';
-    src: url('kgwhotellsyourstory_copy-webfont.woff2') format('woff2'),
-         url('kgwhotellsyourstory_copy-webfont.woff') format('woff');
+    src: url('kgwhotellsyourstory_copy-webfont.woff2') format('woff2'), url('kgwhotellsyourstory_copy-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 * {
@@ -59,7 +55,7 @@
     height: 270px;
     top: 35%;
     left: 5%;
-     z-index: -1;
+    z-index: -1;
 }
 
 .wrap {
@@ -96,8 +92,7 @@ header img {
 
 .nav li {
     width: 160px;
-    font-family: 'akrobatregular'
-    font-size: 25pt;
+    font-family: 'akrobatregular' font-size: 25pt;
     color: white;
     display: inline-block;
 }
@@ -190,7 +185,7 @@ a {
     z-index: -1;
 }
 
-#contact{
+#contact {
     font-family: 'akrobatregular';
     font-size: 18pt;
     color: white;
@@ -198,8 +193,8 @@ a {
     top: 1880px;
     left: 40%;
     cursor: pointer;
-    
 }
+
 
 /* CONTACT FORM On Homepage */
 
@@ -209,172 +204,175 @@ a {
     left: 0;
     width: 100vw;
     height: 2100px;
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(255, 255, 255, .8);
     display: none;
 }
 
-#feedback-page{
-	text-align:center;
+#feedback-page {
+    text-align: center;
 }
 
-#form-main{
-	width:100%;
+#form-main {
+    width: 100%;
     position: fixed;
     top: 25%;
     display: none;
 }
 
 #form-div {
-	background-color:rgba(72,72,72,0.4);
-	padding-left:35px;
-	padding-right:35px;
-	padding-top:35px;
-	padding-bottom:50px;
-	width: 450px;
-	float: left;
-	left: 50%;
-	position: relative;
-  margin-top:30px;
-	margin-left: -260px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
+    background-color: rgba(72, 72, 72, 0.4);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    position: relative;
+    margin-top: 30px;
+    margin-left: -260px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
 }
 
 .feedback-input {
-	color:#3c3c3c;
-	font-family: 'akrobatregular';
-  font-weight:500;
-	font-size: 18px;
-	border-radius: 0;
-	line-height: 22px;
-	background-color: #fbfbfb;
-	padding: 13px 13px 13px 54px;
-	margin-bottom: 10px;
-	width:100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
+    color: #3c3c3c;
+    font-family: 'akrobatregular';
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #fbfbfb;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
 }
 
-.feedback-input:focus{
-	background: #fff;
-	box-shadow: 0;
-	border: 3px solid #FFAF74;
-	color: #FFAF74;
-	outline: none;
-  padding: 13px 13px 13px 54px;
+.feedback-input:focus {
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #FFAF74;
+    color: #FFAF74;
+    outline: none;
+    padding: 13px 13px 13px 54px;
 }
 
-.focused{
-	color:#FFAF74;
-	border:#FFAF74 solid 3px;
+.focused {
+    color: #FFAF74;
+    border: #FFAF74 solid 3px;
 }
+
 
 /* Icons ---------------------------------- */
-#name{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
+
+#name {
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
 }
 
-#name:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-	background-size: 30px 30px;
-	background-position: 8px 5px;
-  background-position: 11px 8px;
-	background-repeat: no-repeat;
+#name:focus {
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 30px 30px;
+    background-position: 8px 5px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
 }
 
-#email{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
+#email {
+    background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
 }
 
-#email:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-	background-size: 30px 30px;
-  background-position: 11px 8px;
-	background-repeat: no-repeat;
+#email:focus {
+    background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
 }
 
-#comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
+#comment {
+    background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
 }
 
 textarea {
     width: 100%;
     height: 150px;
     line-height: 150%;
-    resize:vertical;
+    resize: vertical;
 }
 
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-	background-color:white;
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    background-color: white;
 }
 
-#sub-button{
-	font-family: 'akrobatregular';
-	float:left;
-	width: 100%;
-	border: #fbfbfb solid 4px;
-	cursor:pointer;
-	background-color: #FFAF74;
-	color:white;
-	font-size:24px;
-	padding-top:22px;
-	padding-bottom:22px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+#sub-button {
+    font-family: 'akrobatregular';
+    float: left;
+    width: 100%;
+    border: #fbfbfb solid 4px;
+    cursor: pointer;
+    background-color: #FFAF74;
+    color: white;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
 }
 
-#sub-button:hover{
-	background-color: rgba(0,0,0,0);
-	color: #FFAF74;
+#sub-button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFAF74;
 }
-	
+
 .submit:hover {
-	color: #FFAF74;
-}
-	
-.ease {
-	width: 0px;
-	height: 74px;
-	background-color: #fbfbfb;
-	-webkit-transition: .3s ease;
-	-moz-transition: .3s ease;
-	-o-transition: .3s ease;
-	-ms-transition: .3s ease;
-	transition: .3s ease;
+    color: #FFAF74;
 }
 
-.submit:hover .ease{
-  width:100%;
-  background-color:white;
+.ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.submit:hover .ease {
+    width: 100%;
+    background-color: white;
 }
 
 @media only screen and (max-width: 580px) {
-	#form-div{
-		left: 3%;
-		margin-right: 3%;
-		width: 88%;
-		margin-left: 0;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
+    #form-div {
+        left: 3%;
+        margin-right: 3%;
+        width: 88%;
+        margin-left: 0;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 }
-
 
 
 /* GIRLS NIGHT DRINKS */
@@ -637,8 +635,6 @@ input:focus, textarea:focus {
 
 /* CUSTOM PAGE FORM */
 
-
-
 #customcoverphoto {
     background-image: url(custom.jpg);
     background-position: center;
@@ -769,8 +765,6 @@ input:focus, textarea:focus {
     box-shadow: 2px 2px 10px black;
 }
 
-
-
 #button12_3 {
     left: 7%;
     top: 430px;
@@ -778,6 +772,7 @@ input:focus, textarea:focus {
     line-height: 2;
     box-shadow: 2px 2px 10px black;
 }
+
 #button12_4 {
     left: 7%;
     width: 17%;
@@ -802,41 +797,40 @@ input:focus, textarea:focus {
     box-shadow: 2px 2px 10px black;
 }
 
- #button12_7 {
-        position: absolute;
-        top: 459px;
-        left: 37%;
-        width: 17%;
-     line-height: 2;
-        box-shadow: 2px 2px 10px black;
-    }
-    #button12_8 {
-        position: absolute;
-        top: 515px;
-        left: 37%;
-        width: 17%;
-        line-height: 2;
-        box-shadow: 2px 2px 10px black;
-    }
-    #button12_9 {
-        position: absolute;
-        top: 572px;
-        left: 37%;
-        width:17%;
-        line-height: 2;
-        box-shadow: 2px 2px 10px black;
-    }
+#button12_7 {
+    position: absolute;
+    top: 459px;
+    left: 37%;
+    width: 17%;
+    line-height: 2;
+    box-shadow: 2px 2px 10px black;
+}
 
-    #number1 {
-        position: relative;
-        width: 35px;
-        height: 35px;
-        top: 355px;
-        left: 7%;
-        
-        
-        
-    }
+#button12_8 {
+    position: absolute;
+    top: 515px;
+    left: 37%;
+    width: 17%;
+    line-height: 2;
+    box-shadow: 2px 2px 10px black;
+}
+
+#button12_9 {
+    position: absolute;
+    top: 572px;
+    left: 37%;
+    width: 17%;
+    line-height: 2;
+    box-shadow: 2px 2px 10px black;
+}
+
+#number1 {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 355px;
+    left: 7%;
+}
 
 #customtitle {
     left: 7%;
@@ -857,22 +851,20 @@ input:focus, textarea:focus {
     height: 39px;
     position: relative;
     left: 34%;
-    
-    
-    
 }
- #customtitle1 {
-        width: 60%;
-        height: 4%;
-        left: 15%;
-        top: 365px;
-        position: absolute;
-         font-family: 'kg_who_tells_your_storyRg';
-        font-size: 18pt;
-        text-align: center;
-        color: rgba(255, 255, 255, 1);
-        text-shadow: 1px 1px 10px black;
-    }
+
+#customtitle1 {
+    width: 60%;
+    height: 4%;
+    left: 15%;
+    top: 365px;
+    position: absolute;
+    font-family: 'kg_who_tells_your_storyRg';
+    font-size: 18pt;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 10px black;
+}
 
 #number3 {
     position: relative;
@@ -880,77 +872,63 @@ input:focus, textarea:focus {
     left: 65%;
     width: 135px;
     height: 39px;
-    
-    
-    
 }
 
 #submit {
-        width: 12%;
-        height: 7%;
-        left: 70%;
-        top: 364px;
-        padding-left: 17px;
-        line-height: 2.5;
-        text-align: left;
-        position: absolute;
-         font-family: 'kg_who_tells_your_storyRg';
-        font-size: 18pt;
-        color: rgba(255, 255, 255, 1);
-        cursor: pointer;
-        text-shadow: 1px 1px 6px black;
-        
-    }
-#finddrink {
-    
-    display: none;
-    
-    
+    width: 12%;
+    height: 7%;
+    left: 70%;
+    top: 364px;
+    padding-left: 17px;
+    line-height: 2.5;
+    text-align: left;
+    position: absolute;
+    font-family: 'kg_who_tells_your_storyRg';
+    font-size: 18pt;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    text-shadow: 1px 1px 6px black;
 }
 
+#finddrink {
+    display: none;
+}
 
 #question {
     position: fixed;
     width: 550px;
     height: 620px;
-    top:268px;
+    top: 268px;
     left: 60%;
     z-index: 1;
     animation-name: pulse;
-	animation-duration: 1.5s;	
-	animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
-    
-
 
 @-webkit-keyframes pulse {
-	0% {
-		transform: scale(0.90);
-		opacity: 0.6;		
-	}
-	50% {
-		transform: scale(1);
-		opacity: 1;	
-	}	
-	100% {
-		transform: scale(0.90);
-		opacity: 0.6;	
-	}			
+    0% {
+        transform: scale(0.90);
+        opacity: 0.6;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.90);
+        opacity: 0.6;
+    }
 }
 
-
-
-  #bg1 {
-       
-       background: linear-gradient(to bottom, rgba(111,51,189,1) 0%, rgba(111,51,189,1) 25%, rgba(218,200,235,1) 100%);
-        background-repeat: no-repeat;
-        width: 100vw;
-        height: 100vh;
-        position: absolute;
-        z-index: -1;
- 
-        
-    }
+#bg1 {
+    background: linear-gradient(to bottom, rgba(111, 51, 189, 1) 0%, rgba(111, 51, 189, 1) 25%, rgba(218, 200, 235, 1) 100%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
 
 
 /*All recipes have this: */
@@ -1001,23 +979,24 @@ ul {
     margin-left: 80px;
 }
 
+
 /*Infographic txt */
 
 .facts {
-        position: absolute;
-        top: 25%;
-        left: 25%;
-        text-align: center;
-        font-family: 'akrobatregular';
-        font-size: 18pt;
-        color: white;
-    }
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+    font-family: 'akrobatregular';
+    font-size: 18pt;
+    color: white;
+}
 
 
 /* MOJITO DRINK */
 
-#girlbackground{
-   background: linear-gradient(to bottom, #BC548B, #ffffff);
+#girlbackground {
+    background: linear-gradient(to bottom, #BC548B, #ffffff);
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -1120,7 +1099,6 @@ ul {
 }
 
 
-
 /* BELLINI DRINK */
 
 #bellcoverphoto {
@@ -1199,7 +1177,7 @@ ul {
 }
 
 #bellinstructions {
-     top: 665px;
+    top: 665px;
     left: 40%;
     width: 50%;
     text-align: center;
@@ -1232,7 +1210,7 @@ ul {
 }
 
 .Sangcorners {
-   position: absolute;
+    position: absolute;
     width: 48.5%;
     left: 40%;
     height: 330px;
@@ -1384,10 +1362,11 @@ ul {
     font-size: 16pt;
 }
 
+
 /* LONG ISLAND DRINK */
 
-#guysbackground{
-   background: linear-gradient(to bottom, #5CA983, #ffffff);
+#guysbackground {
+    background: linear-gradient(to bottom, #5CA983, #ffffff);
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -1440,7 +1419,7 @@ ul {
     top: 60%;
     margin-top: 1.5%;
     display: block;
-   background-color: rgba(56, 161, 110, 0.8);
+    background-color: rgba(56, 161, 110, 0.8);
 }
 
 #teatitle3 {
@@ -1480,10 +1459,10 @@ ul {
 }
 
 
-    /* CEASER DRINK */
-    
- #guysbackground{
-   background: linear-gradient(to bottom, #5CA983, #ffffff);
+/* CEASER DRINK */
+
+#guysbackground {
+    background: linear-gradient(to bottom, #5CA983, #ffffff);
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -1495,7 +1474,7 @@ ul {
     background-size: cover;
     background-position: center;
     position: absolute;
-    background-image: url(longisland.jpg);
+    background-image: url(ceaser2.jpg);
     margin-top: 7%;
     left: 13%;
     width: 25%;
@@ -1536,7 +1515,7 @@ ul {
     top: 60%;
     margin-top: 1.5%;
     display: block;
-   background-color: rgba(56, 161, 110, 0.8);
+    background-color: rgba(56, 161, 110, 0.8);
 }
 
 #guystitle3 {
@@ -1575,11 +1554,11 @@ ul {
     font-size: 16pt;
 }
 
-    
-    /* GIN DRINK */
-    
-#guysbackground{
-   background: linear-gradient(to bottom, #5CA983, #ffffff);
+
+/* GIN DRINK */
+
+#guysbackground {
+    background: linear-gradient(to bottom, #5CA983, #ffffff);
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -1597,6 +1576,7 @@ ul {
     width: 25%;
     height: 83%;
 }
+
 #ginheader {
     font-family: 'kg_who_tells_your_storyRg';
     color: white;
@@ -1631,7 +1611,7 @@ ul {
     top: 60%;
     margin-top: 1.5%;
     display: block;
-   background-color: rgba(56, 161, 110, 0.8);
+    background-color: rgba(56, 161, 110, 0.8);
 }
 
 #guystitle3 {
@@ -1669,11 +1649,12 @@ ul {
     font-family: 'akrobatregular';
     font-size: 16pt;
 }
-    /* MINT MOJITO DRINK */
-    
-    
-   #guysbackground{
-   background: linear-gradient(to bottom, #5CA983, #ffffff);
+
+
+/* MINT MOJITO DRINK */
+
+#guysbackground {
+    background: linear-gradient(to bottom, #5CA983, #ffffff);
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -1726,7 +1707,7 @@ ul {
     top: 60%;
     margin-top: 1.5%;
     display: block;
-   background-color: rgba(56, 161, 110, 0.8);
+    background-color: rgba(56, 161, 110, 0.8);
 }
 
 #guystitle3 {
@@ -1764,11 +1745,12 @@ ul {
     font-family: 'akrobatregular';
     font-size: 16pt;
 }
+
+
 /* PINA COLDA DRINK */
 
- 
-   #vacabackground{
-   background: linear-gradient(to bottom, #63A0DD, #ffffff);
+#vacabackground {
+    background: linear-gradient(to bottom, #63A0DD, #ffffff);
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -1821,7 +1803,7 @@ ul {
     top: 60%;
     margin-top: 1.5%;
     display: block;
-   background-color: rgba(60, 136, 213, 0.8);
+    background-color: rgba(60, 136, 213, 0.8);
 }
 
 #vacatitle3 {
@@ -1861,13 +1843,10 @@ ul {
 }
 
 
-
-
 /* MARGARTIA  DRINK */
 
-
-   #vacabackground{
-   background: linear-gradient(to bottom, #63A0DD, #ffffff);
+#vacabackground {
+    background: linear-gradient(to bottom, #63A0DD, #ffffff);
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -1920,7 +1899,7 @@ ul {
     top: 60%;
     margin-top: 1.5%;
     display: block;
-   background-color: rgba(60, 136, 213, 0.8);
+    background-color: rgba(60, 136, 213, 0.8);
 }
 
 #vacatitle3 {
@@ -1961,8 +1940,9 @@ ul {
 
 
 /* SEX ON THE BEACH DRINK */
-#vacabackground{
-   background: linear-gradient(to bottom, #63A0DD, #ffffff);
+
+#vacabackground {
+    background: linear-gradient(to bottom, #63A0DD, #ffffff);
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -2015,7 +1995,7 @@ ul {
     top: 60%;
     margin-top: 1.5%;
     display: block;
-   background-color: rgba(60, 136, 213, 0.8);
+    background-color: rgba(60, 136, 213, 0.8);
 }
 
 #sextitle3 {
@@ -2054,10 +2034,11 @@ ul {
     font-size: 16pt;
 }
 
+
 /* LAVA FLOW DRINK */
 
-#vacabackground{
-   background: linear-gradient(to bottom, #63A0DD, #ffffff);
+#vacabackground {
+    background: linear-gradient(to bottom, #63A0DD, #ffffff);
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -2110,7 +2091,7 @@ ul {
     top: 60%;
     margin-top: 1.5%;
     display: block;
-   background-color: rgba(60, 136, 213, 0.8);
+    background-color: rgba(60, 136, 213, 0.8);
 }
 
 #lavatitle3 {
@@ -2296,18 +2277,15 @@ ul {
 }
 
 
-
-/* MEDIA QUERIES START HERE !!!!!!! */
-/* MEDIA QUERIES START HERE !!!!!!! */
 /* MEDIA QUERIES START HERE !!!!!!! */
 
 
+/* MEDIA QUERIES START HERE !!!!!!! */
 
 
-
+/* MEDIA QUERIES START HERE !!!!!!! */
 
 @media only screen and (max-width: 900px) {
-    
     /* HOMEPAGE */
     header {
         display: none;
@@ -2378,7 +2356,6 @@ ul {
         top: 18%;
         left: 15px;
         z-index: -1 !important;
-
     }
     h1 {
         font-family: 'kg_who_tells_your_storyRg';
@@ -2428,7 +2405,7 @@ ul {
         width: 100%;
         height: 15%;
         cursor: pointer;
-        z-index:  -1;
+        z-index: -1;
     }
     #vacation:hover {
         transform: scale(1.1, 1.1);
@@ -2446,192 +2423,164 @@ ul {
         cursor: pointer;
         z-index: -1;
     }
-    
     #custom:hover {
         transform: scale(1.1, 1.1);
         transition: all .3s ease-in;
         vertical-align: middle;
     }
-    
-    
     /* CONTACT FORM On Homepage */
-
-    #contact{
+    #contact {
         top: 35%;
         left: 25%;
         font-size: 18px;
     }
-    
-    #buzzed{
+    #buzzed {
         z-index: 9;
     }
-
     #overlay {
-    z-index: 9999 !important;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(255,255,255,.8);
-    display: none;
-}
-
-#feedback-page{
-	text-align:center;
-}
-
-#form-main{
-	width:100%;
-    position: fixed;
-    top: 25%;
-    display: none;
-}
-
-#form-div {
-	background-color:rgba(72,72,72,0.4);
-	padding-left:35px;
-	padding-right:35px;
-	padding-top:35px;
-	padding-bottom:50px;
-	width: 450px;
-	float: left;
-	left: 50%;
-	position: relative;
-  margin-top:30px;
-	margin-left: -260px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-}
-
-.feedback-input {
-	color:#3c3c3c;
-	font-family: 'akrobatregular';
-  font-weight:500;
-	font-size: 18px;
-	border-radius: 0;
-	line-height: 22px;
-	background-color: #fbfbfb;
-	padding: 13px 13px 13px 54px;
-	margin-bottom: 10px;
-	width:100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
-}
-
-.feedback-input:focus{
-	background: #fff;
-	box-shadow: 0;
-	border: 3px solid #FFAF74;
-	color: #FFAF74;
-	outline: none;
-  padding: 13px 13px 13px 54px;
-}
-
-.focused{
-	color:#FFAF74;
-	border:#FFAF74 solid 3px;
-}
-
-/* Icons ---------------------------------- */
-#name{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#name:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-	background-size: 30px 30px;
-	background-position: 8px 5px;
-  background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#email{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#email:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-	background-size: 30px 30px;
-  background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
-}
-
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-	background-color:white;
-}
-
-#sub-button{
-	font-family: 'akrobatregular';
-	float:left;
-	width: 100%;
-	border: #fbfbfb solid 4px;
-	cursor:pointer;
-	background-color: #FFAF74;
-	color:white;
-	font-size:24px;
-	padding-top:22px;
-	padding-bottom:22px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-}
-
-#sub-button:hover{
-	background-color: rgba(0,0,0,0);
-	color: #FFAF74;
-}
-	
-.submit:hover {
-	color: #FFAF74;
-}
-	
-.ease {
-	width: 0px;
-	height: 74px;
-	background-color: #fbfbfb;
-	-webkit-transition: .3s ease;
-	-moz-transition: .3s ease;
-	-o-transition: .3s ease;
-	-ms-transition: .3s ease;
-	transition: .3s ease;
-}
-
-.submit:hover .ease{
-  width:100%;
-  background-color:white;
-}
-
-
-    
-    
-    
-    
+        z-index: 9999 !important;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, .8);
+        display: none;
+    }
+    #feedback-page {
+        text-align: center;
+    }
+    #form-main {
+        width: 100%;
+        position: fixed;
+        top: 25%;
+        display: none;
+    }
+    #form-div {
+        background-color: rgba(72, 72, 72, 0.4);
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 35px;
+        padding-bottom: 50px;
+        width: 450px;
+        float: left;
+        left: 50%;
+        position: relative;
+        margin-top: 30px;
+        margin-left: -260px;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+    }
+    .feedback-input {
+        color: #3c3c3c;
+        font-family: 'akrobatregular';
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 0;
+        line-height: 22px;
+        background-color: #fbfbfb;
+        padding: 13px 13px 13px 54px;
+        margin-bottom: 10px;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 3px solid rgba(0, 0, 0, 0);
+    }
+    .feedback-input:focus {
+        background: #fff;
+        box-shadow: 0;
+        border: 3px solid #FFAF74;
+        color: #FFAF74;
+        outline: none;
+        padding: 13px 13px 13px 54px;
+    }
+    .focused {
+        color: #FFAF74;
+        border: #FFAF74 solid 3px;
+    }
+    /* Icons ---------------------------------- */
+    #name {
+        background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+        background-size: 30px 30px;
+        background-position: 11px 8px;
+        background-repeat: no-repeat;
+    }
+    #name:focus {
+        background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+        background-size: 30px 30px;
+        background-position: 8px 5px;
+        background-position: 11px 8px;
+        background-repeat: no-repeat;
+    }
+    #email {
+        background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+        background-size: 30px 30px;
+        background-position: 11px 8px;
+        background-repeat: no-repeat;
+    }
+    #email:focus {
+        background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+        background-size: 30px 30px;
+        background-position: 11px 8px;
+        background-repeat: no-repeat;
+    }
+    #comment {
+        background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+        background-size: 30px 30px;
+        background-position: 11px 8px;
+        background-repeat: no-repeat;
+    }
+    textarea {
+        width: 100%;
+        height: 150px;
+        line-height: 150%;
+        resize: vertical;
+    }
+    input:hover,
+    textarea:hover,
+    input:focus,
+    textarea:focus {
+        background-color: white;
+    }
+    #sub-button {
+        font-family: 'akrobatregular';
+        float: left;
+        width: 100%;
+        border: #fbfbfb solid 4px;
+        cursor: pointer;
+        background-color: #FFAF74;
+        color: white;
+        font-size: 24px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        margin-top: -4px;
+        font-weight: 700;
+    }
+    #sub-button:hover {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFAF74;
+    }
+    .submit:hover {
+        color: #FFAF74;
+    }
+    .ease {
+        width: 0px;
+        height: 74px;
+        background-color: #fbfbfb;
+        -webkit-transition: .3s ease;
+        -moz-transition: .3s ease;
+        -o-transition: .3s ease;
+        -ms-transition: .3s ease;
+        transition: .3s ease;
+    }
+    .submit:hover .ease {
+        width: 100%;
+        background-color: white;
+    }
     /*GIRLS NIGHT */
     #coverphoto {
         background-image: url(girlsnight.jpg);
@@ -2670,7 +2619,6 @@ input:focus, textarea:focus {
         transition: all .4s ease-in;
         vertical-align: middle;
     }
-    
     #bellini {
         background-position: center;
         background-size: cover;
@@ -2761,7 +2709,6 @@ input:focus, textarea:focus {
         height: 32.2%;
         background-image: url(longisland.jpg);
     }
-    
     #longisland:hover {
         transform: scale(1.1, 1.1);
         transition: all .3s ease-in;
@@ -2777,7 +2724,6 @@ input:focus, textarea:focus {
         height: 32.2%;
         background-image: url(ceaser2.jpg);
     }
-    
     #ceaser:hover {
         transform: scale(1.1, 1.1);
         transition: all .3s ease-in;
@@ -2793,7 +2739,6 @@ input:focus, textarea:focus {
         height: 32.2%;
         background-image: url(guysdrink2.jpg);
     }
-    
     #gin:hover {
         transform: scale(1.1, 1.1);
         transition: all .3s ease-in;
@@ -2814,7 +2759,6 @@ input:focus, textarea:focus {
         transition: all .3s ease-in;
         vertical-align: middle;
     }
-    
     #bdrink {
         font-family: 'kg_who_tells_your_storyRg';
         font-size: 19pt;
@@ -2856,13 +2800,11 @@ input:focus, textarea:focus {
         height: 32.2%;
         background-image: url(PinaColada.jpg);
     }
-    
     #pinacolada:hover {
         transform: scale(1.1, 1.1);
         transition: all .3s ease-in;
         vertical-align: middle;
     }
-    
     #margarita {
         background-position: center;
         background-size: cover;
@@ -2873,7 +2815,6 @@ input:focus, textarea:focus {
         height: 32.2%;
         background-image: url(Margarita.jpg);
     }
-    
     #margarita:hover {
         transform: scale(1.1, 1.1);
         transition: all .3s ease-in;
@@ -2904,7 +2845,6 @@ input:focus, textarea:focus {
         height: 32.2%;
         background-image: url(LavaFlow.jpg);
     }
-    
     #lava:hover {
         transform: scale(1.1, 1.1);
         transition: all .3s ease-in;
@@ -2918,10 +2858,7 @@ input:focus, textarea:focus {
         margin-top: 265px;
         background-color: rgba(60, 136, 213, 0.8);
     }
-    
     /*CUSTOM */
-    
-    
     #options {
         position: fixed;
         top: 350px;
@@ -2930,7 +2867,6 @@ input:focus, textarea:focus {
         height: 600px;
         z-index: 9999;
         display: none;
-       
     }
     #choices {
         font-family: 'kg_who_tells_your_storyRg';
@@ -2941,59 +2877,48 @@ input:focus, textarea:focus {
         position: fixed;
         top: 270px;
         left: 110px;
-        text-shadow:  3px 4px 10px black;
-     
+        text-shadow: 3px 4px 10px black;
     }
-    
     #title {
-    position: fixed;
-    width: 186px;
-    height: 40px;
-    top: 650px;
-    left: 30px;
-    font-family: 'kg_who_tells_your_storyRg';
-    font-size: 20pt;
-    color: white;
-    text-align: center;
-    display: none;
-    z-index: 1000;
-    background-color: rgba(173, 57, 128, 0.8);
-    animation-name: fadeIn;
-     animation-duration: 1.5s;
-    animation-delay: 0;
-    animation-timing-function: ease-in-out;	 
-     visibility: visible !important;	
-    box-shadow: 3px 5px 15px black;
-        
-        
+        position: fixed;
+        width: 186px;
+        height: 40px;
+        top: 650px;
+        left: 30px;
+        font-family: 'kg_who_tells_your_storyRg';
+        font-size: 20pt;
+        color: white;
+        text-align: center;
+        display: none;
+        z-index: 1000;
+        background-color: rgba(173, 57, 128, 0.8);
+        animation-name: fadeIn;
+        animation-duration: 1.5s;
+        animation-delay: 0;
+        animation-timing-function: ease-in-out;
+        visibility: visible !important;
+        box-shadow: 3px 5px 15px black;
     }
-    
     #title2 {
-    font-family: 'kg_who_tells_your_storyRg';
-    font-size: 20pt;
-    color: white;
-    position: fixed;
-    width: 186px;
-    height: 40px;
-    top: 650px;
-    right: 26px;
-    text-align: center;
-    display: none;
-    box-shadow: 3px 5px 15px black;
-    background-color: rgba(173, 57, 128, 0.8);
-    animation-name: fadeIn;
+        font-family: 'kg_who_tells_your_storyRg';
+        font-size: 20pt;
+        color: white;
+        position: fixed;
+        width: 186px;
+        height: 40px;
+        top: 650px;
+        right: 26px;
+        text-align: center;
+        display: none;
+        box-shadow: 3px 5px 15px black;
+        background-color: rgba(173, 57, 128, 0.8);
+        animation-name: fadeIn;
         animation-duration: 1.5s;
         animation-delay: 0;
         z-index: 1000;
-	    animation-timing-function: ease-in-out;	 
-	    visibility: visible !important;	
-        
-        
-        
+        animation-timing-function: ease-in-out;
+        visibility: visible !important;
     }
-    
-    
-    
     #Img {
         width: 185px;
         height: 290px;
@@ -3004,36 +2929,30 @@ input:focus, textarea:focus {
         display: none;
         cursor: pointer;
         box-shadow: 4px 7px 15px black;
-        animation-name: fadeIn;	
-	    animation-duration: 1.5s;
+        animation-name: fadeIn;
+        animation-duration: 1.5s;
         animation-delay: 0;
-	    animation-timing-function: ease-in-out;	 
-	    visibility: visible !important;	
-        
+        animation-timing-function: ease-in-out;
+        visibility: visible !important;
     }
-    
-    
-    
     @keyframes fadeIn {
-	0% {
-		transform: scale(0);
-		opacity: 0.0;		
-	}
-	60% {
-		transform: scale(1.1);	
-	}
-	80% {
-		transform: scale(0.9);
-		opacity: 1;	
-	}	
-	100% {
-		transform: scale(1);
-		opacity: 1;	
-	}		
-}
-
-    
-      #Img2 {
+        0% {
+            transform: scale(0);
+            opacity: 0.0;
+        }
+        60% {
+            transform: scale(1.1);
+        }
+        80% {
+            transform: scale(0.9);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    #Img2 {
         width: 185px;
         height: 290px;
         position: fixed;
@@ -3043,33 +2962,26 @@ input:focus, textarea:focus {
         display: none;
         cursor: pointer;
         box-shadow: 4px 7px 15px black;
-        animation-name: fadeIn;	
-	    animation-duration: 1.5s;	
-	    animation-timing-function: ease-in-out;	 
-	    visibility: visible !important;	
+        animation-name: fadeIn;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        visibility: visible !important;
     }
-    
-    
     #bg1 {
-       
-       background: linear-gradient(to bottom, rgba(111,51,189,1) 0%, rgba(111,51,189,1) 25%, rgba(218,200,235,1) 100%);
+        background: linear-gradient(to bottom, rgba(111, 51, 189, 1) 0%, rgba(111, 51, 189, 1) 25%, rgba(218, 200, 235, 1) 100%);
         background-repeat: no-repeat;
         width: 100vw;
         height: 100vh;
         position: absolute;
         z-index: -1;
- 
-        
     }
-    
     #finddrink {
-    position: absolute;
-    z-index: 9;
-    bottom: 117px;
-    left: 53.5%;
-    height: 48px;
+        position: absolute;
+        z-index: 9;
+        bottom: 117px;
+        left: 53.5%;
+        height: 48px;
         display: block;
-        
     }
     #customheader {
         font-family: 'kg_who_tells_your_storyRg';
@@ -3078,8 +2990,6 @@ input:focus, textarea:focus {
         text-align: center;
         color: white;
     }
-    
-
     #customtitle {
         width: 60%;
         left: 20%;
@@ -3087,26 +2997,22 @@ input:focus, textarea:focus {
         position: absolute;
         box-shadow: 2px 4px 3px grey;
         text-shadow: none;
-
     }
-    
-  
-     #customtitle1 {
+    #customtitle1 {
         width: 60%;
         height: 4%;
         left: 20%;
         top: 64%;
         position: absolute;
-         font-family: 'kg_who_tells_your_storyRg';
+        font-family: 'kg_who_tells_your_storyRg';
         font-size: 18pt;
         background-color: mediumpurple;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-         box-shadow: 2px 4px 3px grey;
-         text-shadow: none;
+        box-shadow: 2px 4px 3px grey;
+        text-shadow: none;
     }
-    
-    #submit{
+    #submit {
         width: 40%;
         height: 7%;
         left: 22%;
@@ -3115,20 +3021,14 @@ input:focus, textarea:focus {
         line-height: 3;
         text-align: left;
         position: absolute;
-         font-family: 'kg_who_tells_your_storyRg';
+        font-family: 'kg_who_tells_your_storyRg';
         font-size: 18pt;
         background-color: mediumpurple;
         color: rgba(255, 255, 255, 1);
         cursor: pointer;
         box-shadow: 2px 4px 3px grey;
         text-shadow: none;
-        
     }
-
-  
-
-
-    
     .button12 {
         font-family: 'kg_who_tells_your_storyRg';
         font-size: 15pt;
@@ -3157,14 +3057,12 @@ input:focus, textarea:focus {
         border-bottom: 190px solid rgba(255, 255, 255, 0.25);
         left: -8px;
     }
-    
-    #activeA{
+    #activeA {
         display: none;
         left: -8px;
         border-left: 70px solid transparent;
         border-right: 70px solid transparent;
         border-bottom: 190px solid rgba(255, 255, 255, 0.25);
-
     }
     #button12_1 {
         position: absolute;
@@ -3176,48 +3074,47 @@ input:focus, textarea:focus {
     }
     #button12_2 {
         position: absolute;
-          line-height: 2.5;
+        line-height: 2.5;
         top: 46%;
         left: 35%;
         width: 28%;
-         box-shadow: 2px 4px 3px grey;
+        box-shadow: 2px 4px 3px grey;
     }
     #button12_3 {
         position: absolute;
-          line-height: 2.5;
-        top:46%;
+        line-height: 2.5;
+        top: 46%;
         left: 65%;
         width: 28%;
-         box-shadow: 2px 4px 3px grey;
+        box-shadow: 2px 4px 3px grey;
     }
     #button12_4 {
         position: absolute;
-          line-height: 2.5;
+        line-height: 2.5;
         top: 53%;
         left: 5%;
         width: 28%;
-         box-shadow: 2px 4px 3px grey;
+        box-shadow: 2px 4px 3px grey;
     }
     #button12_5 {
         position: absolute;
-          line-height: 2.5;
+        line-height: 2.5;
         top: 53%;
         left: 35%;
         width: 28%;
-         box-shadow: 2px 4px 3px grey;
+        box-shadow: 2px 4px 3px grey;
     }
     #button12_6 {
         position: absolute;
-          line-height: 2.5;
+        line-height: 2.5;
         top: 53%;
         left: 65%;
         width: 28%;
-         box-shadow: 2px 4px 3px grey;
+        box-shadow: 2px 4px 3px grey;
     }
-    
     #button12_7 {
         position: absolute;
-          line-height: 2.5;
+        line-height: 2.5;
         top: 70%;
         left: 5%;
         width: 28%;
@@ -3225,7 +3122,7 @@ input:focus, textarea:focus {
     }
     #button12_8 {
         position: absolute;
-          line-height: 2.5;
+        line-height: 2.5;
         top: 70%;
         left: 35%;
         width: 28%;
@@ -3233,50 +3130,34 @@ input:focus, textarea:focus {
     }
     #button12_9 {
         position: absolute;
-          line-height: 2.5;
+        line-height: 2.5;
         top: 70%;
         left: 65%;
         width: 28%;
         box-shadow: 2px 4px 3px grey;
     }
-    
-    #number1{
-        
-        
+    #number1 {
         display: none;
     }
-    
-    #number2{
-        
-     display: none;
+    #number2 {
+        display: none;
     }
-    
     #number3 {
         display: none;
-        
     }
-    
-    #question{
+    #question {
         display: none;
-        
     }
-    
     /*MOJITO DRINK */
-    
-    
-    #girlbackground{
-    display: none;
-}
-    
-      #guysbackground{
-    display: none;
-}
-    
-      #vacabackground{
-    display: none;
-}
-    
-    
+    #girlbackground {
+        display: none;
+    }
+    #guysbackground {
+        display: none;
+    }
+    #vacabackground {
+        display: none;
+    }
     #Mojcoverphoto {
         background-repeat: no-repeat;
         background-size: cover;
@@ -3534,8 +3415,6 @@ input:focus, textarea:focus {
     #costitle {
         display: none;
     }
-    
-    
     /* LONG ISLAND DRINK */
     #teatitle2 {
         display: none;
@@ -3555,8 +3434,7 @@ input:focus, textarea:focus {
         left: 0%;
         display: block;
     }
-
-#teaheader {
+    #teaheader {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3564,10 +3442,9 @@ input:focus, textarea:focus {
         margin-top: 357px;
         display: block;
         background-color: rgba(56, 161, 110, 0.8);
-        }
-
-.teacorners {
-    position: relative;
+    }
+    .teacorners {
+        position: relative;
         width: 100%;
         height: 50%;
         top: 430px;
@@ -3577,9 +3454,8 @@ input:focus, textarea:focus {
         line-height: 1.5;
         column-count: 1;
         display: block;
-}
-
-#teainstructions {
+    }
+    #teainstructions {
         top: 660px;
         width: 100%;
         text-align: center;
@@ -3588,9 +3464,8 @@ input:focus, textarea:focus {
         font-family: 'akrobatregular';
         font-size: 12pt;
         display: block;
-}
-    
-    #teatitle3{
+    }
+    #teatitle3 {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3602,12 +3477,9 @@ input:focus, textarea:focus {
         top: 78%;
         margin-top: 5%;
         background-color: rgba(56, 161, 110, 0.8);
-}
-
-    
+    }
     /* CEASER DRINK */
-    
-   #ceasertitle2 {
+    #ceasertitle2 {
         display: none;
     }
     #ceasertitle {
@@ -3625,8 +3497,7 @@ input:focus, textarea:focus {
         left: 0%;
         display: block;
     }
-
-#Ceaserheader {
+    #Ceaserheader {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3634,10 +3505,9 @@ input:focus, textarea:focus {
         margin-top: 357px;
         display: block;
         background-color: rgba(56, 161, 110, 0.8);
-        }
-
-.Ceasercorners {
-    position: relative;
+    }
+    .Ceasercorners {
+        position: relative;
         width: 100%;
         height: 50%;
         top: 430px;
@@ -3647,9 +3517,8 @@ input:focus, textarea:focus {
         line-height: 1.5;
         column-count: 1;
         display: block;
-}
-
-#ceaserinstructions {
+    }
+    #ceaserinstructions {
         top: 660px;
         width: 100%;
         text-align: center;
@@ -3658,9 +3527,8 @@ input:focus, textarea:focus {
         font-family: 'akrobatregular';
         font-size: 12pt;
         display: block;
-}
-    
-    #guystitle3{
+    }
+    #guystitle3 {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3672,13 +3540,9 @@ input:focus, textarea:focus {
         top: 78%;
         margin-top: 5%;
         background-color: rgba(56, 161, 110, 0.8);
-}
-
-    
+    }
     /* GIN DRINK */
-    
-  
-   #gintitle2 {
+    #gintitle2 {
         display: none;
     }
     #gintitle {
@@ -3696,8 +3560,7 @@ input:focus, textarea:focus {
         left: 0%;
         display: block;
     }
-
-#ginheader {
+    #ginheader {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3705,10 +3568,9 @@ input:focus, textarea:focus {
         margin-top: 357px;
         display: block;
         background-color: rgba(56, 161, 110, 0.8);
-        }
-
-.gincorners {
-    position: relative;
+    }
+    .gincorners {
+        position: relative;
         width: 100%;
         height: 50%;
         top: 450px;
@@ -3718,9 +3580,8 @@ input:focus, textarea:focus {
         line-height: 1.5;
         column-count: 1;
         display: block;
-}
-
-#gininstructions {
+    }
+    #gininstructions {
         top: 640px;
         width: 100%;
         text-align: center;
@@ -3729,9 +3590,8 @@ input:focus, textarea:focus {
         font-family: 'akrobatregular';
         font-size: 13pt;
         display: block;
-}
-    
-    #guystitle3{
+    }
+    #guystitle3 {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3743,12 +3603,9 @@ input:focus, textarea:focus {
         top: 78%;
         margin-top: 5%;
         background-color: rgba(56, 161, 110, 0.8);
-}
-
+    }
     /* MINT MOJITO DRINK */
-    
-    
-   #minttitle2 {
+    #minttitle2 {
         display: none;
     }
     #minttitle {
@@ -3766,8 +3623,7 @@ input:focus, textarea:focus {
         left: 0%;
         display: block;
     }
-
-#mintheader {
+    #mintheader {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3775,10 +3631,9 @@ input:focus, textarea:focus {
         margin-top: 357px;
         display: block;
         background-color: rgba(56, 161, 110, 0.8);
-        }
-
-.mintcorners {
-    position: relative;
+    }
+    .mintcorners {
+        position: relative;
         width: 100%;
         height: 50%;
         top: 450px;
@@ -3788,9 +3643,8 @@ input:focus, textarea:focus {
         line-height: 1.5;
         column-count: 1;
         display: block;
-}
-
-#mintinstructions {
+    }
+    #mintinstructions {
         top: 655px;
         width: 100%;
         text-align: center;
@@ -3799,9 +3653,8 @@ input:focus, textarea:focus {
         font-family: 'akrobatregular';
         font-size: 12pt;
         display: block;
-}
-    
-#guystitle3{
+    }
+    #guystitle3 {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3813,8 +3666,7 @@ input:focus, textarea:focus {
         top: 78%;
         margin-top: 5%;
         background-color: rgba(56, 161, 110, 0.8);
-}
-
+    }
     /* PINA COLDA DRINK */
     #pinatitle2 {
         display: none;
@@ -3822,7 +3674,7 @@ input:focus, textarea:focus {
     #pinatitle {
         display: none;
     }
-#Pinacoverphoto {
+    #Pinacoverphoto {
         background-image: url(PinaColada.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -3834,8 +3686,7 @@ input:focus, textarea:focus {
         left: 0%;
         display: block;
     }
-
-#Pinaheader {
+    #Pinaheader {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3843,10 +3694,9 @@ input:focus, textarea:focus {
         margin-top: 357px;
         display: block;
         background-color: rgba(60, 136, 213, 0.8);
-        }
-
-.Pinacorners {
-    position: relative;
+    }
+    .Pinacorners {
+        position: relative;
         width: 100%;
         height: 50%;
         top: 450px;
@@ -3856,9 +3706,8 @@ input:focus, textarea:focus {
         line-height: 1.5;
         column-count: 1;
         display: block;
-}
-
-#pinainstructions {
+    }
+    #pinainstructions {
         top: 655px;
         width: 100%;
         text-align: center;
@@ -3867,9 +3716,8 @@ input:focus, textarea:focus {
         font-family: 'akrobatregular';
         font-size: 12pt;
         display: block;
-}
-    
-#vacatitle3{
+    }
+    #vacatitle3 {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3881,11 +3729,9 @@ input:focus, textarea:focus {
         top: 78%;
         margin-top: 5%;
         background-color: rgba(60, 136, 213, 0.8);
-}
-
+    }
     /* MARGARTIA  DRINK */
-    
-     #margtitle2 {
+    #margtitle2 {
         display: none;
     }
     #margtitle {
@@ -3903,8 +3749,7 @@ input:focus, textarea:focus {
         left: 0%;
         display: block;
     }
-
-#margheader {
+    #margheader {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3912,10 +3757,9 @@ input:focus, textarea:focus {
         margin-top: 357px;
         display: block;
         background-color: rgba(60, 136, 213, 0.8);
-        }
-
-.margcorners {
-    position: relative;
+    }
+    .margcorners {
+        position: relative;
         width: 100%;
         height: 50%;
         top: 450px;
@@ -3925,9 +3769,8 @@ input:focus, textarea:focus {
         line-height: 1.5;
         column-count: 1;
         display: block;
-}
-
-#marginstructions {
+    }
+    #marginstructions {
         top: 655px;
         width: 100%;
         text-align: center;
@@ -3936,9 +3779,8 @@ input:focus, textarea:focus {
         font-family: 'akrobatregular';
         font-size: 12pt;
         display: block;
-}
-    
-#vacatitle3{
+    }
+    #vacatitle3 {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3950,16 +3792,14 @@ input:focus, textarea:focus {
         top: 78%;
         margin-top: 5%;
         background-color: rgba(60, 136, 213, 0.8);
-}
-
+    }
     /* SEX ON THE BEACH DRINK */
-     #sextitle2 {
+    #sextitle2 {
         display: none;
     }
     #sextitle {
         display: none;
     }
-    
     #sexcoverphoto {
         background-image: url(SexontheBeach.jpg);
         background-repeat: no-repeat;
@@ -3972,8 +3812,7 @@ input:focus, textarea:focus {
         left: 0%;
         display: block;
     }
-
-#sexheader {
+    #sexheader {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -3981,10 +3820,9 @@ input:focus, textarea:focus {
         margin-top: 370px;
         display: block;
         background-color: rgba(60, 136, 213, 0.8);
-        }
-
-.sexcorners {
-    position: relative;
+    }
+    .sexcorners {
+        position: relative;
         width: 100%;
         height: 50%;
         top: 450px;
@@ -3994,9 +3832,8 @@ input:focus, textarea:focus {
         line-height: 1.5;
         column-count: 1;
         display: block;
-}
-
-#sexinstructions {
+    }
+    #sexinstructions {
         top: 655px;
         width: 100%;
         text-align: center;
@@ -4005,9 +3842,8 @@ input:focus, textarea:focus {
         font-family: 'akrobatregular';
         font-size: 12pt;
         display: block;
-}
-    
-#vacatitle3{
+    }
+    #vacatitle3 {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -4019,17 +3855,14 @@ input:focus, textarea:focus {
         top: 78%;
         margin-top: 5%;
         background-color: rgba(60, 136, 213, 0.8);
-}
+    }
     /* LAVA FLOW DRINK */
-    
-     #lavatitle2 {
+    #lavatitle2 {
         display: none;
     }
     #lavatitle {
         display: none;
     }
-    
-   
     #lavacoverphoto {
         background-image: url(LavaFlow.jpg);
         background-repeat: no-repeat;
@@ -4042,8 +3875,7 @@ input:focus, textarea:focus {
         left: 0%;
         display: block;
     }
-
-#lavaheader {
+    #lavaheader {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -4051,10 +3883,9 @@ input:focus, textarea:focus {
         margin-top: 370px;
         display: block;
         background-color: rgba(60, 136, 213, 0.8);
-        }
-
-.lavacorners {
-    position: relative;
+    }
+    .lavacorners {
+        position: relative;
         width: 105%;
         height: 50%;
         top: 450px;
@@ -4064,9 +3895,8 @@ input:focus, textarea:focus {
         line-height: 1.5;
         column-count: 1;
         display: block;
-}
-
-#lavainstructions {
+    }
+    #lavainstructions {
         top: 655px;
         width: 100%;
         text-align: center;
@@ -4075,9 +3905,8 @@ input:focus, textarea:focus {
         font-family: 'akrobatregular';
         font-size: 12pt;
         display: block;
-}
-    
-#vacatitle3{
+    }
+    #vacatitle3 {
         font-family: 'kg_who_tells_your_storyRg';
         color: white;
         text-align: center;
@@ -4089,10 +3918,8 @@ input:focus, textarea:focus {
         top: 78%;
         margin-top: 5%;
         background-color: rgba(60, 136, 213, 0.8);
-}
-    
-/*INFOGRAPHIC */
-
+    }
+    /*INFOGRAPHIC */
     #background {
         background: linear-gradient(to bottom, #FFAF74, #EC6F66);
         background-repeat: no-repeat;
@@ -4202,60 +4029,56 @@ input:focus, textarea:focus {
 }
 
 @media only screen and (max-width: 580px) {
-	#form-div{
-		left: 3%;
-		margin-right: 3%;
-		width: 88%;
-		margin-left: 0;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
-    
+    #form-div {
+        left: 3%;
+        margin-right: 3%;
+        width: 88%;
+        margin-left: 0;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
     #drinkglass1 {
-    background-image: url(girlglass.svg);
-    background-repeat: no-repeat;
-    animation: shake 0.4s ease-in-out 0.1s infinite alternate;
-    width: 10%;
-    height: 10%;
-    top: 88%;
-    left: 20%;
-    position: absolute;
-    cursor: pointer;
-}
-
-#drinkglass2 {
-    background-image: url(girlglass.svg);
-    background-repeat: no-repeat;
-    animation: shake 0.4s ease-in-out 0.1s infinite alternate;
-    width: 10%;
-    height: 10%;
-    top: 88%;
-    left: 35%;
-    position: absolute;
-    cursor: pointer;
-}
-
-#drinkglass3 {
-    background-image: url(girlglass.svg);
-    background-repeat: no-repeat;
-    animation: shake 0.4s ease-in-out 0.1s infinite alternate;
-    width: 10%;
-    height: 10%;
-    top: 88%;
-    left: 50%;
-    position: absolute;
-    cursor: pointer;
-}
-
-#drinkglass4 {
-    background-image: url(girlglass.svg);
-    background-repeat: no-repeat;
-    animation: shake 0.4s ease-in-out 0.1s infinite alternate;
-    width: 10%;
-    height: 10%;
-    top: 88%;
-    left: 65%;
-    position: absolute;
-    cursor: pointer;
-}
+        background-image: url(girlglass.svg);
+        background-repeat: no-repeat;
+        animation: shake 0.4s ease-in-out 0.1s infinite alternate;
+        width: 10%;
+        height: 10%;
+        top: 88%;
+        left: 20%;
+        position: absolute;
+        cursor: pointer;
+    }
+    #drinkglass2 {
+        background-image: url(girlglass.svg);
+        background-repeat: no-repeat;
+        animation: shake 0.4s ease-in-out 0.1s infinite alternate;
+        width: 10%;
+        height: 10%;
+        top: 88%;
+        left: 35%;
+        position: absolute;
+        cursor: pointer;
+    }
+    #drinkglass3 {
+        background-image: url(girlglass.svg);
+        background-repeat: no-repeat;
+        animation: shake 0.4s ease-in-out 0.1s infinite alternate;
+        width: 10%;
+        height: 10%;
+        top: 88%;
+        left: 50%;
+        position: absolute;
+        cursor: pointer;
+    }
+    #drinkglass4 {
+        background-image: url(girlglass.svg);
+        background-repeat: no-repeat;
+        animation: shake 0.4s ease-in-out 0.1s infinite alternate;
+        width: 10%;
+        height: 10%;
+        top: 88%;
+        left: 65%;
+        position: absolute;
+        cursor: pointer;
+    }
 }
