@@ -8,9 +8,14 @@
 </head>
 
 <body>
+   
+   
     <div id="overlay1">
 
+
         <div id="navbar">
+            
+          
 
             <a href="index.html"><img src="backA.svg" id="backA"></a>
 
@@ -86,6 +91,8 @@
         <img src="" id="Img2">
 
     </div>
+    
+     <div id="exitbut"> Go Back </div>
 
     <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
     </script>
@@ -110,7 +117,7 @@
         var num;
         var occ;
 
-
+        var exitbut = document.getElementById("exitbut");
 
 
         butvodka.addEventListener("click", function() {
@@ -261,12 +268,13 @@
         };
 
 
-
-
         var jmediaquery = window.matchMedia("(max-width: 480px)")
         if (jmediaquery.matches) {
             butsubmit.addEventListener("click", function() {
-
+             
+            exitbut.style.display = "block";
+            
+                
 
                 // VODKA BUTTON
 
@@ -335,11 +343,10 @@
                     img.style.height = "250px";
                     img.style.top = "375px";
                     img.style.boxShadow = "none";
-                    title.style.backgroundColor = "mediumpurple";
-                    title.innerHTML = "EXIT";
+                    exitbut.style.display="block";
+                    exitbut.style.cursor = "pointer";
 
-
-                    title.addEventListener("click", function() {
+                    exitbut.addEventListener("click", function() {
                         window.open("custom.html", "_self");
 
                     });
@@ -801,8 +808,8 @@
                 if (num == 4 && occ == 9) {
 
                     setWeb2();
-                    img.src = "pinacolada.jpg";
-                    img2.src = "sexonthebeach.jpg";
+                    img.src="pinacolada.jpg";
+                    img2.src="sexonthebeach.jpg";
                     title.innerHTML = "PINA COLADA";
                     title2.innerHTML = "SEX ON BEACH";
                     img.addEventListener("click", function() {
@@ -821,6 +828,7 @@
                 if (num == 5 && occ == 7) {
 
                     setWeb1();
+                    choice.style.display="block";
                     choice.innerHTML = "NO OPTIONS <br> TRY VACATION!";
                     img.src = "sad.png";
                     img.style.height = "250px";

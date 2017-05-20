@@ -3148,6 +3148,19 @@ ul {
     #question {
         display: none;
     }
+    
+    #exitbut {
+        bottom: 135px;
+        text-align: center;
+        font-family: 'akrobatregular';
+        font-size: 16pt;
+        color: white;
+        display: none;
+        z-index: 999;
+        position: absolute;
+        left: 40%;
+    }
+    
     /*MOJITO DRINK */
     #girlbackground {
         display: none;
