@@ -133,6 +133,12 @@ a {
     z-index: -1;
 }
 
+#girlsnightw:hover {
+        transform: scale(1.1, 1.1);
+        transition: all .3s ease-in;
+        vertical-align: middle;
+    }
+
 #guysnightw {
     background-image: url(guysnight.jpg);
     background-size: cover;
@@ -150,6 +156,12 @@ a {
     z-index: -1;
 }
 
+#guysnightw:hover {
+        transform: scale(1.1, 1.1);
+        transition: all .3s ease-in;
+        vertical-align: middle;
+    }
+
 #vacationw {
     background-image: url(vacation.jpg);
     background-size: cover;
@@ -166,6 +178,11 @@ a {
     cursor: pointer;
     z-index: -1;
 }
+#vacationw:hover {
+        transform: scale(1.1, 1.1);
+        transition: all .3s ease-in;
+        vertical-align: middle;
+    }
 
 #customw {
     background-image: url(custom.jpg);
@@ -184,6 +201,12 @@ a {
     margin-bottom: 7%;
     z-index: -1;
 }
+
+#customw:hover {
+        transform: scale(1.1, 1.1);
+        transition: all .3s ease-in;
+        vertical-align: middle;
+    }
 
 #contact {
     font-family: 'akrobatregular';
