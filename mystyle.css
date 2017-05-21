@@ -587,7 +587,7 @@ textarea:focus {
     left: 0;
     width: 25%;
     height: 64%;
-    background-image: url(PinaColada.jpg);
+    background-image: url(pina.jpg);
 }
 
 #margarita {
@@ -598,7 +598,7 @@ textarea:focus {
     left: 25%;
     width: 25%;
     height: 64%;
-    background-image: url(Margarita.jpg);
+    background-image: url(marg.jpg);
 }
 
 #sex {
@@ -609,7 +609,7 @@ textarea:focus {
     left: 50%;
     width: 25%;
     height: 64%;
-    background-image: url(SexontheBeach.jpg);
+    background-image: url(sex.jpg);
 }
 
 #lava {
@@ -620,7 +620,7 @@ textarea:focus {
     left: 75%;
     width: 25%;
     height: 64%;
-    background-image: url(LavaFlow.jpg);
+    background-image: url(lava.jpg);
 }
 
 #vdrink {
@@ -1762,7 +1762,7 @@ ul {
     background-size: cover;
     background-position: center;
     position: absolute;
-    background-image: url(PinaColada.jpg);
+    background-image: url(pina.jpg);
     margin-top: 7%;
     left: 13%;
     width: 25%;
@@ -1858,7 +1858,7 @@ ul {
     background-size: cover;
     background-position: center;
     position: absolute;
-    background-image: url(Margarita.jpg);
+    background-image: url(marg.jpg);
     margin-top: 7%;
     left: 13%;
     width: 25%;
@@ -1954,7 +1954,7 @@ ul {
     background-size: cover;
     background-position: center;
     position: absolute;
-    background-image: url(SexontheBeach.jpg);
+    background-image: url(sex.jpg);
     margin-top: 7%;
     left: 13%;
     width: 25%;
@@ -2050,7 +2050,7 @@ ul {
     background-size: cover;
     background-position: center;
     position: absolute;
-    background-image: url(LavaFlow.jpg);
+    background-image: url(lava.jpg);
     margin-top: 7%;
     left: 13%;
     width: 25%;
@@ -2798,7 +2798,7 @@ ul {
         left: 3%;
         width: 45%;
         height: 32.2%;
-        background-image: url(PinaColada.jpg);
+        background-image: url(pina.jpg);
     }
     #pinacolada:hover {
         transform: scale(1.1, 1.1);
@@ -2813,7 +2813,7 @@ ul {
         left: 51.5%;
         width: 45%;
         height: 32.2%;
-        background-image: url(Margarita.jpg);
+        background-image: url(marg.jpg);
     }
     #margarita:hover {
         transform: scale(1.1, 1.1);
@@ -2828,7 +2828,7 @@ ul {
         left: 3%;
         width: 45%;
         height: 32.2%;
-        background-image: url(SexontheBeach.jpg);
+        background-image: url(sex.jpg);
     }
     #sex:hover {
         transform: scale(1.1, 1.1);
@@ -2843,7 +2843,7 @@ ul {
         left: 51.5%;
         width: 45%;
         height: 32.2%;
-        background-image: url(LavaFlow.jpg);
+        background-image: url(lava.jpg);
     }
     #lava:hover {
         transform: scale(1.1, 1.1);
@@ -3688,7 +3688,7 @@ ul {
         display: none;
     }
     #Pinacoverphoto {
-        background-image: url(PinaColada.jpg);
+        background-image: url(pina.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -3751,7 +3751,7 @@ ul {
         display: none;
     }
     #margcoverphoto {
-        background-image: url(Margarita.jpg);
+        background-image: url(marg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -3814,7 +3814,7 @@ ul {
         display: none;
     }
     #sexcoverphoto {
-        background-image: url(SexontheBeach.jpg);
+        background-image: url(sex.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -3877,7 +3877,7 @@ ul {
         display: none;
     }
     #lavacoverphoto {
-        background-image: url(LavaFlow.jpg);
+        background-image: url(lava.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
