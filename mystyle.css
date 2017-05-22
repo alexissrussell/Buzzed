@@ -92,7 +92,8 @@ header img {
 
 .nav li {
     width: 160px;
-    font-family: 'akrobatregular' font-size: 25pt;
+    font-family: 'akrobatregular';
+    font-size: 25pt;
     color: white;
     display: inline-block;
 }
@@ -110,6 +111,16 @@ a {
     height: 5%;
     z-index: 9999;
     display: block;
+}
+
+#slogan {
+    position: absolute;
+    top: 600px;
+    left: 6.3%;
+    z-index: 9999;
+    font-family: 'akrobatregular';
+    font-size: 20pt;
+    color: white;
 }
 
 #webcat {
@@ -134,10 +145,10 @@ a {
 }
 
 #girlsnightw:hover {
-        transform: scale(1.1, 1.1);
-        transition: all .3s ease-in;
-        vertical-align: middle;
-    }
+    transform: scale(1.1, 1.1);
+    transition: all .3s ease-in;
+    vertical-align: middle;
+}
 
 #guysnightw {
     background-image: url(guysnight.jpg);
@@ -157,10 +168,10 @@ a {
 }
 
 #guysnightw:hover {
-        transform: scale(1.1, 1.1);
-        transition: all .3s ease-in;
-        vertical-align: middle;
-    }
+    transform: scale(1.1, 1.1);
+    transition: all .3s ease-in;
+    vertical-align: middle;
+}
 
 #vacationw {
     background-image: url(vacation.jpg);
@@ -178,11 +189,12 @@ a {
     cursor: pointer;
     z-index: -1;
 }
+
 #vacationw:hover {
-        transform: scale(1.1, 1.1);
-        transition: all .3s ease-in;
-        vertical-align: middle;
-    }
+    transform: scale(1.1, 1.1);
+    transition: all .3s ease-in;
+    vertical-align: middle;
+}
 
 #customw {
     background-image: url(custom.jpg);
@@ -203,10 +215,10 @@ a {
 }
 
 #customw:hover {
-        transform: scale(1.1, 1.1);
-        transition: all .3s ease-in;
-        vertical-align: middle;
-    }
+    transform: scale(1.1, 1.1);
+    transition: all .3s ease-in;
+    vertical-align: middle;
+}
 
 #contact {
     font-family: 'akrobatregular';
@@ -2325,6 +2337,15 @@ ul {
     #bg {
         display: none;
     }
+    #slogan {
+        position: absolute;
+        top: 270px;
+        left: 2%;
+        z-index: 9999;
+        font-family: 'akrobatregular';
+        font-size: 12pt;
+        color: white;
+    }
     #navbar {
         background-color: rgba(0, 0, 0, .5);
         position: fixed;
@@ -2453,7 +2474,7 @@ ul {
     }
     /* CONTACT FORM On Homepage */
     #contact {
-        top: 35%;
+        top: 900px;
         left: 25%;
         font-size: 18px;
     }
@@ -3171,7 +3192,6 @@ ul {
     #question {
         display: none;
     }
-    
     #exitbut {
         bottom: 135px;
         text-align: center;
@@ -3183,7 +3203,6 @@ ul {
         position: absolute;
         left: 40%;
     }
-    
     /*MOJITO DRINK */
     #girlbackground {
         display: none;
